@@ -23,5 +23,5 @@ You can put the `spider` folder on a remote server and create a `crontab` timed 
 
 ```bash
 > crontab -e
-> 00 12 * * * /usr/local/bin/node /dev/spider/index.js 2>&1 # 每天12：00执行
+> 00 12 * * * /usr/local/bin/node /dev/spider/index.js 2>&1 # Executed daily at 12:00
 ```
